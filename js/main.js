@@ -7,9 +7,11 @@ const PS=["Adobe Photoshop"];
 Object.assign(IMG,{fashion:"images/personal-07.webp",b1:"images/dental-01.webp",b2:"images/dental-02.webp",b3:"images/dental-03.webp",b4:"images/dental-04.webp",b5:"images/dental-05.webp",b6:"images/dental-06.webp",b7:"images/dental-07.webp"});
 Object.assign(IMG,{m1:"images/maedup-01.webp",m2:"images/maedup-02.webp",m3:"images/maedup-03.webp",m4:"images/maedup-04.webp",v1:"images/video-01-poster.webp",v2:"images/video-02-poster.webp",v3:"images/video-03-poster.webp"});
 const AI_=["Adobe Illustrator"];
+Object.assign(IMG,{c1:"images/butter-01.webp",c2:"images/butter-02.webp",c3:"images/butter-03.webp"});
 const designs=[
   {t:"연세 이루다 치과 브랜딩",sec:"브랜딩",tags:["브랜딩","치과","로고"],tools:AI_,img:IMG.b1,imgs:[IMG.b1,IMG.b2,IMG.b3,IMG.b4,IMG.b5,IMG.b6,IMG.b7],pos:"center"},
   {t:"MAEDUP 브랜딩",sec:"브랜딩",tags:["브랜딩","로고","전통"],tools:AI_,img:IMG.m1,imgs:[IMG.m1,IMG.m2,IMG.m3,IMG.m4],pos:"center"},
+  {t:"버터 캐릭터 디자인",sec:"브랜딩",tags:["브랜딩","캐릭터디자인"],img:IMG.c1,imgs:[IMG.c1,IMG.c2,IMG.c3],pos:"center"},
   {t:"핸드폰 케이스",sec:"개인작",tags:["편집","인쇄","핸드폰 케이스"],tools:PS,img:IMG.d1,pos:"center"},
   {t:"엽서",sec:"개인작",tags:["편집","인쇄","엽서"],tools:PS,img:IMG.d2,pos:"center 45%"},
   {t:"포스터",sec:"개인작",tags:["편집","인쇄","포스터"],tools:PS,img:IMG.d3,pos:"center 40%"},
